@@ -14,3 +14,12 @@ Bài tập thực hành môn Phát triển ứng dụng di động
 ## Bài 3: Tạo Radio group + radio button + number picket
 ### Kết quả:
 ![bai3](https://user-images.githubusercontent.com/58367194/146868801-4860a457-be9d-425f-a441-5a3ed9d78a38.png)
+
+## Bài 4: Tạo number picker + progress bar 
+### Kết quả:
+- Amount picker
+- ![click_amountPicker](https://user-images.githubusercontent.com/58367194/146893439-eafacdb6-21af-4352-b540-b701d43220ee.png)
+- Click radio button
+- ![click_radio_button](https://user-images.githubusercontent.com/58367194/146893451-34dc3d62-67aa-483c-b0f6-59b798387540.png)
+- Progress bar
+- ![progress_bar](https://user-images.githubusercontent.com/58367194/146893456-08091e7f-f542-4c2b-b014-d9bfc12258d0.png)
