@@ -18,20 +18,20 @@ Bài tập thực hành môn Phát triển ứng dụng di động
 ## Bài 4: Tạo number picker + progress bar 
 ### Kết quả:
 - Amount picker
-- ![click_amountPicker](https://user-images.githubusercontent.com/58367194/146893439-eafacdb6-21af-4352-b540-b701d43220ee.png)
+  ![click_amountPicker](https://user-images.githubusercontent.com/58367194/146893439-eafacdb6-21af-4352-b540-b701d43220ee.png)
 - Click radio button
-- ![click_radio_button](https://user-images.githubusercontent.com/58367194/146893451-34dc3d62-67aa-483c-b0f6-59b798387540.png)
+  ![click_radio_button](https://user-images.githubusercontent.com/58367194/146893451-34dc3d62-67aa-483c-b0f6-59b798387540.png)
 - Progress bar
-- ![progress_bar](https://user-images.githubusercontent.com/58367194/146893456-08091e7f-f542-4c2b-b014-d9bfc12258d0.png)
+  ![progress_bar](https://user-images.githubusercontent.com/58367194/146893456-08091e7f-f542-4c2b-b014-d9bfc12258d0.png)
 
 ## Bài 5: Thay đổi tên App + hiển thị report
 ### Kết quả:
 - Report
-- ![report_selected](https://user-images.githubusercontent.com/58367194/146905139-d5211451-190c-455e-98be-241ec4aa3ca2.png)
+  ![report_selected](https://user-images.githubusercontent.com/58367194/146905139-d5211451-190c-455e-98be-241ec4aa3ca2.png)
 
 ## Bài 6: Listview, load direct another activity, make menu 
 ### Kết quả:
 - ListView, another activity:
-- ![load_other_activity](https://user-images.githubusercontent.com/58367194/146921949-ac367501-42c4-43b5-8e6b-0213b05bfdc2.png)
+  ![load_other_activity](https://user-images.githubusercontent.com/58367194/146921949-ac367501-42c4-43b5-8e6b-0213b05bfdc2.png)
 - Menu:
-- ![menu_item](https://user-images.githubusercontent.com/58367194/146921955-47d19c4a-f2cc-4c8c-84ef-87133a2f6dfe.png)
+  ![menu_item](https://user-images.githubusercontent.com/58367194/146921955-47d19c4a-f2cc-4c8c-84ef-87133a2f6dfe.png)
