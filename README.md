@@ -27,11 +27,11 @@ Bài tập thực hành môn Phát triển ứng dụng di động
 ## Bài 5: Thay đổi tên App + hiển thị report
 ### Kết quả:
 - Report
-  ![report_selected](https://user-images.githubusercontent.com/58367194/146905139-d5211451-190c-455e-98be-241ec4aa3ca2.png)
+![report_selected](https://user-images.githubusercontent.com/58367194/146905139-d5211451-190c-455e-98be-241ec4aa3ca2.png)
 
 ## Bài 6: Listview, load direct another activity, make menu 
 ### Kết quả:
 - ListView, another activity:
-  ![load_other_activity](https://user-images.githubusercontent.com/58367194/146921949-ac367501-42c4-43b5-8e6b-0213b05bfdc2.png)
+- ![load_other_activity](https://user-images.githubusercontent.com/58367194/146921949-ac367501-42c4-43b5-8e6b-0213b05bfdc2.png)
 - Menu:
-  ![menu_item](https://user-images.githubusercontent.com/58367194/146921955-47d19c4a-f2cc-4c8c-84ef-87133a2f6dfe.png)
+- ![menu_item](https://user-images.githubusercontent.com/58367194/146921955-47d19c4a-f2cc-4c8c-84ef-87133a2f6dfe.png)
