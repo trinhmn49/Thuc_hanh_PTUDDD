@@ -35,3 +35,7 @@ Bài tập thực hành môn Phát triển ứng dụng di động
 - ![load_other_activity](https://user-images.githubusercontent.com/58367194/146921949-ac367501-42c4-43b5-8e6b-0213b05bfdc2.png)
 - Menu:
 - ![menu_item](https://user-images.githubusercontent.com/58367194/146921955-47d19c4a-f2cc-4c8c-84ef-87133a2f6dfe.png)
+
+## Bài 7: Edit text
+### Kết quả:
+![edit_text](https://user-images.githubusercontent.com/58367194/147016374-49656611-4d90-40aa-b1a4-5aa89067e071.png)
