@@ -51,3 +51,6 @@ Bài tập thực hành môn Phát triển ứng dụng di động
 
 ## Bài 10: Application and database 
 ![Donation_app_started](https://user-images.githubusercontent.com/58367194/147263943-63d4e791-426f-4ba9-b483-e4e549970f0b.png)
+
+## Bài 11: reset database
+![reset_database](https://user-images.githubusercontent.com/58367194/147266042-3de7947c-c224-41ca-83b2-765299c88795.png)
