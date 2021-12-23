@@ -49,3 +49,5 @@ Bài tập thực hành môn Phát triển ứng dụng di động
 ### Kết quả:
 ![reset](https://user-images.githubusercontent.com/58367194/147186078-93744600-3333-49e8-bd6d-b2440fca9f42.png)
 
+## Bài 10: Application and database 
+![Donation_app_started](https://user-images.githubusercontent.com/58367194/147263943-63d4e791-426f-4ba9-b483-e4e549970f0b.png)
