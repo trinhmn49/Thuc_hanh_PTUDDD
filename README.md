@@ -39,3 +39,9 @@ Bài tập thực hành môn Phát triển ứng dụng di động
 ## Bài 7: Edit text
 ### Kết quả:
 ![edit_text](https://user-images.githubusercontent.com/58367194/147016374-49656611-4d90-40aa-b1a4-5aa89067e071.png)
+
+## Bài 8: Connect Donate with Report
+### Kết quả:
+![edit_text](https://user-images.githubusercontent.com/58367194/147016374-49656611-4d90-40aa-b1a4-5aa89067e071.png)
+![load_other_activity](https://user-images.githubusercontent.com/58367194/146921949-ac367501-42c4-43b5-8e6b-0213b05bfdc2.png)
+
