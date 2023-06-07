@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T11:18:42.392Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fddbFP0V_HfjMxjVP3UM" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T11:35:15.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KxMB8QU6eHqtL9LJcBQ5" version="21.3.7" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1567" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" background="none" math="0" shadow="0">
       <root>
@@ -289,6 +289,24 @@
             <mxPoint x="623.95" y="1100" as="targetPoint" />
             <mxPoint x="623.95" y="660" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uKHd_ahxQpPNpttr2zoV-87" value="getSingleIP()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="515" y="700" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uKHd_ahxQpPNpttr2zoV-88" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="720" as="sourcePoint" />
+            <mxPoint x="620" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKHd_ahxQpPNpttr2zoV-89" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uKHd_ahxQpPNpttr2zoV-90" value="Luồng khởi tạo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uKHd_ahxQpPNpttr2zoV-91" value="Luồng gửi nhận bản tin giveback IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1180" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
