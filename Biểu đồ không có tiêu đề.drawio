@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T07:52:11.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="R0DFi1IJNbvS0-e0kzoc" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T07:57:09.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yyxQkw9nrKq-Ft8DJuBo" version="21.3.7" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1147" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -42,12 +42,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uKHd_ahxQpPNpttr2zoV-12" value="SendCountertoNM()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="210" width="110" height="20" as="geometry" />
+          <mxGeometry x="250" y="180" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uKHd_ahxQpPNpttr2zoV-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="230" as="sourcePoint" />
-            <mxPoint x="380" y="230" as="targetPoint" />
+            <mxPoint x="90" y="200" as="sourcePoint" />
+            <mxPoint x="380" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uKHd_ahxQpPNpttr2zoV-14" value="load_control_logic.go" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -63,12 +63,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uKHd_ahxQpPNpttr2zoV-16" value="OverloadHandler()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="270" width="110" height="20" as="geometry" />
+          <mxGeometry x="390" y="210" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uKHd_ahxQpPNpttr2zoV-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="290" as="sourcePoint" />
-            <mxPoint x="520" y="290" as="targetPoint" />
+            <mxPoint x="90" y="230" as="sourcePoint" />
+            <mxPoint x="520" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uKHd_ahxQpPNpttr2zoV-18" value="load_control_resource.go" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -84,12 +84,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uKHd_ahxQpPNpttr2zoV-20" value="StartCheckOverloadResource()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="360" width="110" height="20" as="geometry" />
+          <mxGeometry x="560" y="240" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uKHd_ahxQpPNpttr2zoV-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="380" as="sourcePoint" />
-            <mxPoint x="710" y="380" as="targetPoint" />
+            <mxPoint x="90" y="260" as="sourcePoint" />
+            <mxPoint x="710" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKHd_ahxQpPNpttr2zoV-22" value="db_aql.go" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uKHd_ahxQpPNpttr2zoV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=link;" edge="1" parent="1" source="uKHd_ahxQpPNpttr2zoV-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="560" as="targetPoint" />
+            <mxPoint x="839.5" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="870" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKHd_ahxQpPNpttr2zoV-24" value="InsertDBIpPool()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="270" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uKHd_ahxQpPNpttr2zoV-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="290" as="sourcePoint" />
+            <mxPoint x="870" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
