@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T03:48:09.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="x84Bqvhk5LiXcYBmns3b" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-19T06:15:19.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="lLQcADuTgxVieukMNoAW" version="22.1.18" type="github">
   <diagram name="Trang-1" id="oaW-5a-gu5Xrpvbmgl1f">
-    <mxGraphModel dx="751" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
+    <mxGraphModel dx="916" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-2" value="clone-project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="316" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-3" value="person&#39; branch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="331" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-4" value="scan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="316" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-5" value="sonarqube-scan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="466" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-6" value="unit-test-code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="393" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-7" value="fortify:on-merge-request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="538" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-8" value="local-build" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="316" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-9" value="deploy-151-trigger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="581" y="316" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-10" value="local-test-go-framework-trigger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="716" y="318" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-11" value="push code to person&#39; branch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="169" y="154" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-12" value="tạo merge request vào branch chính" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="202" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QOvyY-45LAZgzh1bzRz5-12" target="QOvyY-45LAZgzh1bzRz5-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="426" as="sourcePoint" />
+            <mxPoint x="460" y="376" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="113" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-14" value="pipeline 1: khi có trigger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="181" width="73" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-15" value="clone-project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-16" value="dev&#39; branch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="795" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-17" value="scan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-18" value="sonarqube-scan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-19" value="unit-test-code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="857" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-20" value="fortify:on-schedule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="1002" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-21" value="local-build" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-22" value="deploy-151-daily" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="581" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-23" value="local-test-go-framework-daily" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="716" y="782" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-27" value="pipeline 2: lên lịch hàng ngày" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="645" width="73" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-28" value="namespace để check logs: 5gc-smf-trigger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="252" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QOvyY-45LAZgzh1bzRz5-14" target="QOvyY-45LAZgzh1bzRz5-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="526" as="sourcePoint" />
+            <mxPoint x="460" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-33" value="namespace để check logs: 5gc-smf" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144" y="648" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QOvyY-45LAZgzh1bzRz5-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="QOvyY-45LAZgzh1bzRz5-33" source="QOvyY-45LAZgzh1bzRz5-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="83" y="592" as="sourcePoint" />
+            <mxPoint x="429" y="872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
